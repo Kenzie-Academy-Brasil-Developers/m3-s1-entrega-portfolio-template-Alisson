@@ -1,0 +1,27 @@
+.header {
+    background-color: black;
+    display: flex;
+    padding: 15px 15% !important;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 80px;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+.p {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+}
+
+.img {
+    width: 70.697px;
+    height: 13.872px;
+}
+

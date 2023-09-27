@@ -1,0 +1,39 @@
+.tech {
+    display: flex;
+    width: 30%;
+    border: 1px  solid rgba(255, 255, 255, 0.5);
+    padding: 25px 23px;
+    gap: 30px;
+    border-radius: 25px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.tech h4 {
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.h1 {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+    font-family: "Inter", sans-serif;
+}
+
+.section {
+    padding: 0 15%;
+    width: 100%;
+    display: flex;
+    margin-bottom: 80px;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

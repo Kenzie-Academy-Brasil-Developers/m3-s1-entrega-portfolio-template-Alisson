@@ -1,0 +1,38 @@
+.footer {
+    margin-left: 15%;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 50px 0;
+    margin-bottom: 30px;
+}
+
+.h1 {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+    font-family: "Inter", sans-serif;
+}
+
+.div {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+
+.contacts {
+    display: flex;
+    gap: 8px;
+}
+
+.footer p {
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px; 
+}
+

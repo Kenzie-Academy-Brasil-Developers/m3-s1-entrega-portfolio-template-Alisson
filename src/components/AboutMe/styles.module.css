@@ -1,0 +1,23 @@
+.userinfos {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px; 
+    font-family: "Inter", sans-serif;
+    width: 50%;
+}
+
+.h1 {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+    font-family: "Inter", sans-serif;
+}
+
+.section {
+    padding: 0 15%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
