@@ -1,20 +1,20 @@
-import { Header } from "./components/Header/Header"
 import { BannerSection } from "./components/BannerSection"
 import { AboutMe } from "./components/AboutMe"
 import { Technologies } from "./components/Technologies"
 import { Projects } from "./components/Projects"
-import { Footer } from "./components/Footer"
+import PageTemplate from "./components/PageTemplate"
+import { projects } from "./data/projects.js";
+import { technologies } from "./data/technologies.js"
 
 const App = () => {
-
   return (
     <>
-      <Header />
-      <BannerSection />
-      <AboutMe />
-      <Technologies />
-      <Projects />
-      <Footer />
+    <PageTemplate>
+    <BannerSection />
+    <AboutMe />
+    <Technologies technologies={ technologies } />
+    <Projects projects={ projects }/>
+    </PageTemplate>
     </>
   )
 }
